@@ -1,16 +1,6 @@
 
-
-/******************************************************************
-* \Syntax			: void InitCtrl_Init(void)
-* \Description		: initialize Nvic\SCB Module by parsing the Configuration
-*					  into Nvic\SCB register
-*	
-* \Sync\Async		: Synchronous
-* \Reenrancy    	: None Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
-*********************************************************************/
 #include "Mcu_Hw.h"
+#include "NVIC.h"
 void InitCtrl_Init(void)
 {
 	u8 u8IntNum=0;
@@ -103,8 +93,8 @@ void InitCtrl_Init(void)
 	 
 	#if INT_EN_DIS == 1
 		/* MEMA .. BUSA .. USGA .. SVCA .. MON .. PNDSV .. TICK .. USAGEP .. MEMP .. BUSP .. SVC .. MEM .. BUS.. USAGE*/
-		SCB_SYSHND |= (1<<Int_Type);
-		
+		//SCB_SYSHND |= (1<<Int_Type);
+		//SCB_INTCTRL|= (1<<26);
 		if(u8IntNumber<=31)
 			NVIC_EN.NVIC_EN0 = (1<<u8IntNumber);
 		else if ((u8IntNumber>=32)&& (u8IntNumber <= 63))
@@ -159,7 +149,5 @@ void InitCtrl_Init(void)
 		#error "Error  NVIC_INT configuration option "
 	#endif
 		// SYSHNDCTRL
-		
-
-	
 }
+

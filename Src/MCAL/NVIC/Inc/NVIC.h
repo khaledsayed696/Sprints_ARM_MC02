@@ -57,7 +57,7 @@
 * \Return value     : None
 *********************************************************************/
 
-void InitCtrl_Init(void); 
+void InitCtrl_Init(void);
 
 
 #endif   /* INTCTRL_H */
