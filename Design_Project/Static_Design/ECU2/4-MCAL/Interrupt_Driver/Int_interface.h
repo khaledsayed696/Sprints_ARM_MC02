@@ -13,6 +13,29 @@
  ################################################################################3#####*/
 
 
+ /******************************************************************
+* \Syntax			: void EXTI_VoidInt0Init(void);
+* \Description		: Init interrupt
+*					  
+*	
+* \Sync\Async		: Synchronous
+* \Reenrancy    	:  Reentrant
+* \Parameters (in)	: void
+						void -> ( size:unkown , range: unkown ,type unkown, description unkown)
+* \Return value     : void
+* \
+
+/******************************************************************
+* \Syntax			: void EXTI_VoidGieEnable(void);
+* \Description		: Enable globale interrupt
+*					  
+*	
+* \Sync\Async		: Synchronous
+* \Reenrancy    	:  Reentrant
+* \Parameters (in)	: void
+						void -> ( size:unkown , range: unkown ,type unkown, description unkown)
+* \Return value     : void
+* \
 /*This Function Shall Initialize INT0*/
 void EXTI_VoidInt0Init(void);
 /*This Function Shall Initialize INT1*/

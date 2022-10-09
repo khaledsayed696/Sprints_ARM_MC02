@@ -15,8 +15,9 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: void
+						void -> ( size:unkown , range: unkown ,type unkown, description unkown)
+* \Return value     : void
 *********************************************************************/  
 
 /******************************************************************
@@ -26,8 +27,9 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	:LCD_u8CopyCmd
+						LCD_u8CopyCmd -> ( size:8 bits , range: zero or 255 ,type u8, description this variable defines LCD_u8CopyCmd)
+* \Return value     : void
 *********************************************************************/
 
 /******************************************************************
@@ -37,8 +39,9 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	:LCD_u8CopyChar
+						LCD_u8CopyChar -> ( size:8 bits , range: zero or 255 ,type u8, description this variable defines LCD_u8CopyChar)
+* \Return value     : void
 *********************************************************************/
 
 /******************************************************************
@@ -48,8 +51,10 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	:LCD_u8CopyRow , LCD_u8CopyCol
+						LCD_u8CopyRow -> ( size:8 bits , range: zero or 255 ,type u8, description this variable defines LCD_u8CopyRow)
+						LCD_u8CopyCol -> ( size:8 bits , range: zero or 255 ,type u8, description this variable defines LCD_u8CopyCol)
+* \Return value     : void
 *********************************************************************/
 
 
@@ -60,8 +65,9 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	:LCD_u8CopyString 
+						LCD_u8CopyString -> ( size:8 bits , range: zero or 255 ,type u8, description this variable defines LCD_u8CopyString)
+* \Return value     : void
 *********************************************************************/
 
 /******************************************************************
@@ -71,8 +77,9 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: void
+						void -> ( size:unkown , range: unkown ,type unkown, description unkown)
+* \Return value     : void
 *********************************************************************/
 
 /******************************************************************
@@ -81,8 +88,9 @@
 *					 
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	:LCD_u8CopyValue
+						LCD_u8CopyValue -> ( size:8 bits , range: zero or 9 ,type u32, description this variable defines LCD_u8CopyValue)
+* \Return value     : void
 *********************************************************************/
 
 /******************************************************************
@@ -92,8 +100,10 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	:Pattern ,  CGRAM_index
+						Pattern -> ( size:8 bits , range: zero or 255 ,type u8, description this variable defines Pattern)
+						CGRAM_index -> ( size:8 bits , range: zero or 255 ,type u8, description this variable defines CGRAM_index)
+* \Return value     : void
 *********************************************************************/
 
 /******************************************************************
@@ -103,8 +113,12 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	:CGRAM_index ,  Row , Col
+						CGRAM_index -> ( size:8 bits , range: zero or 255 ,type u8, description this variable defines CGRAM_index)
+						Row -> ( size:8 bits , range: zero or 255 ,type u8, description this variable defines Row)
+						Col -> ( size:8 bits , range: zero or 255 ,type u8, description this variable defines Col)
+						
+* \Return value     : void
 *********************************************************************/
 
 /******************************************************************
@@ -114,8 +128,10 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	:LCD_u8CopyValue
+						LCD_u8CopyValue -> ( size:8 bits , range: zero or 255 ,type u8, description this variable defines LCD_u8CopyValue)
+						
+* \Return value     : void
 *********************************************************************/
 
 /* This function shall initialize the LCD*/

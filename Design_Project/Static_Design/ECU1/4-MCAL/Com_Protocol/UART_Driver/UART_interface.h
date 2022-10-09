@@ -12,8 +12,9 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: void
+						void -> ( size:unkown , range: unkown ,type unkown, description unkown)
+* \Return value     : void
 *********************************************************************/ 
 
 /******************************************************************
@@ -23,8 +24,9 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: UART_SentByte 
+						UART_SentByte -> ( size:8 bits , range: zero or eight ,type u8, description this variable defines UART_SentByte)
+* \Return value     : void
 *********************************************************************/
 
 /******************************************************************
@@ -34,8 +36,9 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: Pointer to UART_ReceivedByte 
+						UART_ReceivedByte -> ( size:8 bits , range: zero or eight ,type u8, description this variable defines UART_ReceivedByte)
+* \Return value     : void
 *********************************************************************/
 
 /******************************************************************
@@ -45,8 +48,9 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: void
+						void -> ( size:unkown , range: unkown ,type unkown, description unkown)
+* \Return value     : void
 *********************************************************************/
 
 void UART_VoidInit(void);

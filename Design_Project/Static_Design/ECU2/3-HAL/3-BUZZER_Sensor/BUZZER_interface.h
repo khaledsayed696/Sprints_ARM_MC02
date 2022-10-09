@@ -13,8 +13,9 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: void
+						void -> ( size:unkown , range: unkown ,type unkown, description unkown)
+* \Return value     : void
 *********************************************************************/ 
 
 /******************************************************************
@@ -24,8 +25,9 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: BUZZER_u8CopyLedColor 
+						BUZZER_u8CopyLedColor -> ( size:8 bits , range: zero or 255 ,type u8, description this variable defines the BUZZER_u8CopyLedColor)
+* \Return value     : void
 *********************************************************************/
 
 /******************************************************************
@@ -35,8 +37,9 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: BUZZER_u8CopyLedColor 
+						BUZZER_u8CopyLedColor -> ( size:8 bits , range: zero or 255 ,type u8, description this variable defines the BUZZER_u8CopyLedColor)
+* \Return value     : void
 *********************************************************************/
 
 

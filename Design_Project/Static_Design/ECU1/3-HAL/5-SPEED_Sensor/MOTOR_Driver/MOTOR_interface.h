@@ -13,8 +13,9 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: void
+						void -> ( size:unkown , range: unkown ,type unkown, description unkown)
+* \Return value     : void
 *********************************************************************/
 
 /******************************************************************
@@ -24,8 +25,10 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: pointer to CAN_ReceivedByte
+						MOTOR_u16CopyDutyCycle -> ( size:16 bits , range: zero or u16 ,type u16, description this variable defines motor speed)
+						
+* \Return value     : void
 *********************************************************************/
 
 /******************************************************************
@@ -35,8 +38,9 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: void
+						void -> ( size:unkown , range: unkown ,type unkown, description unkown)
+* \Return value     : void
 *********************************************************************/
 /* LED VALUE*/
 

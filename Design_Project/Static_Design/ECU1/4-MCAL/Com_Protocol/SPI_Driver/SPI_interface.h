@@ -13,8 +13,9 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: void
+						void -> ( size:unkown , range: unkown ,type unkown, description unkown)
+* \Return value     : void
 *********************************************************************/
 /******************************************************************
 * \Syntax			: void SPI_voidTranceive(u8 *Copy_pu8RecieveData, u8 Copy_u8Data);
@@ -23,8 +24,10 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: pointer to Copy_pu8RecieveData , Copy_u8Data
+						Copy_pu8RecieveData -> ( size:255 bits , range: zero or 255 ,type u8, description this variable defines pointer Copy_pu8RecieveData)
+						Copy_u8Data -> ( size:255 bits , range: zero or 255 ,type u8, description this variable defines Copy_u8Data)
+* \Return value     : void
 *********************************************************************/
 
 /******************************************************************
@@ -34,8 +37,10 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: Copy_u8DataByte
+						Copy_u8DataByte -> ( size:255 bits , range: zero or 255 ,type u8, description this variable defines Copy_u8DataByte)
+						
+* \Return value     : void
 *********************************************************************/
 
 /******************************************************************
@@ -45,8 +50,10 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: pointer to Copy_u8RecByte
+						Copy_u8RecByte -> ( size:255 bits , range: zero or 255 ,type u8, description this variable defines pointerv to Copy_u8RecByte)
+						
+* \Return value     : u8
 *********************************************************************/
 
 /******************************************************************
@@ -56,8 +63,9 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: void
+						void -> ( size:unkown , range: unkown ,type unkown, description unkown)
+* \Return value     : void
 *********************************************************************/
 
 /******************************************************************
@@ -67,8 +75,9 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: void
+						void -> ( size:unkown , range: unkown ,type unkown, description unkown)
+* \Return value     : void
 *********************************************************************/
 
 /******************************************************************
@@ -78,8 +87,9 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: void
+						void -> ( size:unkown , range: unkown ,type unkown, description unkown)
+* \Return value     : void
 *********************************************************************/
 void SPI_voidInit();
 

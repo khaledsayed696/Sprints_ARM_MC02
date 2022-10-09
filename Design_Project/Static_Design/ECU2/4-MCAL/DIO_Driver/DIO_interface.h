@@ -52,8 +52,11 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: Dio_ChannelType - Dio_Mode
+						Dio_ChannelType -> ( size:8 bits , range: zero or eight ,type u8, description this variable defines the Channel)
+						Dio_Mode -> ( size:8 bits , range: zero or eight ,type u8, description this variable defines the Mode(input - output))
+* \Return value     : void
+* \
 *********************************************************************/
 /******************************************************************
 * \Syntax			: void Dio_WriteChannnel(u8 Dio_ChannelType , u8 Dio_LevelType);
@@ -62,8 +65,10 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	: Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: Dio_ChannelType - Dio_LevelType
+						Dio_ChannelType -> ( size:8 bits , range: zero or eight ,type u8, description this variable defines the Channel)
+						Dio_LevelType -> ( size:8 bits , range: zero or one ,type u8, description this variable defines the Type (HIGH - LOW)
+* \Return value     : void
 *********************************************************************/
 /******************************************************************
 * \Syntax			: void Dio_ReadChannel(u8 Dio_ChannelType);
@@ -72,8 +77,10 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	: Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: Dio_ChannelType
+						Dio_ChannelType -> ( size:8 bits , range: zero or eight ,type u8, description this variable defines the Channel)
+						
+* \Return value     : void
 *********************************************************************/
 /******************************************************************
 * \Syntax			: void Dio_WritePort(u8 Portld , u8 Dio_LevelType);
@@ -82,8 +89,10 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	: Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: Portld - Dio_LevelType
+						Portld -> ( size:8 bits , range: zero or eight ,type u8, description this variable defines the Portld)
+						Dio_LevelType -> ( size:8 bits , range: zero or one ,type u8, description this variable defines the Type (HIGH - LOW)
+* \Return value     : void
 *********************************************************************/
 /******************************************************************
 * \Syntax			: u32 Dio_ReadCPort(u8 Portld);
@@ -92,8 +101,9 @@
 *	
 * \Sync\Async		: ASynchronous
 * \Reenrancy    	: Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: Portld
+						Portld -> ( size:8 bits , range: zero or eight ,type u8, description this variable defines the Portld)
+* \Return value     : u32
 *********************************************************************/
 /******************************************************************
 * \Syntax			: u32 Dio_FlipChannel(u8 Dio_ChannelType);
@@ -102,8 +112,10 @@
 *	
 * \Sync\Async		: ASynchronous
 * \Reenrancy    	: Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	:Dio_ChannelType
+						Dio_ChannelType -> ( size:8 bits , range: zero or eight ,type u8, description this variable defines the Channel)
+						
+* \Return value     : u32
 *********************************************************************/
 void Dio_voidSetPinMode(u8 Dio_ChannelType,u8 Dio_Mode);
 void Dio_WriteChannnel(u8 Dio_ChannelType , u8 Dio_LevelType);

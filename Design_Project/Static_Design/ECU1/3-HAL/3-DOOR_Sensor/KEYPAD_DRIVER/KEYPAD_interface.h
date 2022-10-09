@@ -12,8 +12,9 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: void
+						void -> ( size:unkown , range: unkown ,type unkown, description unkown)
+* \Return value     : u8
 *********************************************************************/ 
 /*************************FUNCTIONS PROTOTYPES********************/
 u8 KPD_u8GetPressedKey(void);

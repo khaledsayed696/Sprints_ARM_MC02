@@ -7,14 +7,15 @@
 
 
 /******************************************************************
-* \Syntax			: void CONTROL_VoidControlInit(void;
+* \Syntax			: void CONTROL_VoidControlInit(void);
 * \Description		: /* Description: This function shall Init Car
 *					  
 *	
 * \Sync\Async		: None
 * \Reenrancy    	: None
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: void
+						void -> ( size:unkown , range: unkown ,type unkown, description unkown)
+* \Return value     : void
 *********************************************************************/
 
 /******************************************************************
@@ -24,8 +25,10 @@
 *	
 * \Sync\Async		: None
 * \Reenrancy    	: None
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	:CONTROL_u16CopyData
+						CONTROL_u16CopyData -> ( size:16 bits , range: zero or u16 ,type u16, description this variable defines motor speed)
+						
+* \Return value     : void
 *********************************************************************/
 
 /******************************************************************
@@ -35,8 +38,9 @@
 *	
 * \Sync\Async		: None
 * \Reenrancy    	: None
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: void
+						void -> ( size:unkown , range: unkown ,type unkown, description unkown)
+* \Return value     : void
 *********************************************************************/
 
 /******************************************************************
@@ -46,8 +50,9 @@
 *	
 * \Sync\Async		: None
 * \Reenrancy    	: None
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: void
+						void -> ( size:unkown , range: unkown ,type unkown, description unkown)
+* \Return value     : void
 *********************************************************************/
 /* LED VALUE*/
 

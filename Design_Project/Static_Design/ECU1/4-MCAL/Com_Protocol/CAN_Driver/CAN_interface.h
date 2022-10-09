@@ -51,8 +51,9 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: void
+						void -> ( size:unkown , range: unkown ,type unkown, description unkown)
+* \Return value     : void
 *********************************************************************/
 
 /******************************************************************
@@ -62,8 +63,10 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: pointer to Copy_u8RecByte
+						CAN_SentByte -> ( size:4 bytes , range: zero or 64 ,type u32, description this variable defines CAN_SentByte)
+						
+* \Return value     : void
 *********************************************************************/
 
 /******************************************************************
@@ -73,8 +76,10 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: pointer to CAN_ReceivedByte
+						CAN_ReceivedByte -> ( size:4 bytes , range: zero or 64 ,type u32, description this variable defines CAN_ReceivedByte)
+						
+* \Return value     : u32
 *********************************************************************/
 
 

@@ -11,7 +11,7 @@
 
 ErrorStatus CommMgr(u8 Id, u8 Data)
 {
-	/* Choose you want to Send Data throught UART_BUS Or Spi_Bus i2c or Can*/
+	/* Choose you want to Send Data throught UART_BUS Or Spi_Bus i2c or */
 	
 	/*Write COde here*/
 	

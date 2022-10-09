@@ -17,8 +17,10 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	:u16addr , u8data
+						u16addr -> ( size:16 bits , range: zero or u16 ,type u16, description this variable defines EEPROM u16addr)
+						u8data -> ( size:16 bits , range: zero or 255 ,type u16, description this variable defines EEPROM u8data)
+* \Return value     : void
 *********************************************************************/ 
 /******************************************************************
 * \Syntax			: u8 EEPROM_readByte(u16 u16addr);
@@ -27,8 +29,10 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	:u16addr , u8data
+						u16addr -> ( size:16 bits , range: zero or u16 ,type u16, description this variable defines EEPROM u16addr)
+						u8data -> ( size:16 bits , range: zero or 255 ,type u16, description this variable defines EEPROM u8data)
+* \Return value     : u8
 *********************************************************************/ 
 
 /*******************************************************************************

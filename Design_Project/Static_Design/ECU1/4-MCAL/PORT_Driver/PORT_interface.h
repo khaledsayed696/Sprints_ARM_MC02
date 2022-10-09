@@ -55,8 +55,10 @@
 *	
 * \Sync\Async		: ASynchronous
 * \Reenrancy    	: Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: Pointer to Gpt_ConfigType (Struct) 
+						ConfigPtr -> ( size:2 bytes , range: unkonwn ,type const Gpt_ConfigType, description this variable refer to pointer to struct)
+						
+* \Return value     : void
 *********************************************************************/
 void Port_Init(const Gpt_ConfigType *ConfigPtr );
 

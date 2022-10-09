@@ -11,8 +11,8 @@
 * \Description		: /* Description: Choose between Basic Communication Protocol (BCM)
 *					  
 *	
-* \Sync\Async		: Synchronous
-* \Reenrancy    	:  Reentrant
+* \Sync\Async		: None
+* \Reenrancy    	:  None
 * \Parameters (in)	: None
 * \Return value     : None
 *********************************************************************/ 

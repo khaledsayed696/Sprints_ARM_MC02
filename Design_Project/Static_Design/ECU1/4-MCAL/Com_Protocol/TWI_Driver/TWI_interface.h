@@ -19,8 +19,9 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: Copy_u8Address
+						Copy_u8Address -> ( size:255 bits , range: zero or 255 ,type u8, description this variable defines Address of master)
+* \Return value     : void
 *********************************************************************/
 
 /******************************************************************
@@ -30,8 +31,9 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: Copy_u8Address
+						Copy_u8Address -> ( size:255 bits , range: zero or 255 ,type u8, description this variable defines Address of ReceivedByte)
+* \Return value     : void
 *********************************************************************/
 
 /******************************************************************
@@ -41,8 +43,9 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: void
+						void -> ( size:unkown , range: unkown ,type unkown, description unkown)
+* \Return value     : enum
 *********************************************************************/ 
 
 /******************************************************************
@@ -52,8 +55,9 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: void
+						void -> ( size:unkown , range: unkown ,type unkown, description unkown)
+* \Return value     : enum
 *********************************************************************/
 /******************************************************************
 * \Syntax			: TWI_ErrorStatus TWI_SendSlaveAddressWithWrite(u8 Copy_u8SlaveAddress);
@@ -62,8 +66,9 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: Copy_u8SlaveAddress
+						Copy_u8SlaveAddress -> ( size:255 bits , range: zero or 255 ,type u8, description this variable defines write Copy_u8SlaveAddress)
+* \Return value     : enum
 *********************************************************************/
 
 /******************************************************************
@@ -73,8 +78,9 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: Copy_u8SlaveAddress
+						Copy_u8SlaveAddress -> ( size:255 bits , range: zero or eight ,type u8, description this variable defines read Copy_u8SlaveAddress)
+* \Return value     : enum
 *********************************************************************/
 
 /******************************************************************
@@ -84,8 +90,9 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: Copy_u8DataByte
+						Copy_u8DataByte -> ( size:255 bits , range: zero or 255 ,type u8, description this variable defines writr Copy_u8DataByte)
+* \Return value     : enum
 *********************************************************************/
 
 /******************************************************************
@@ -95,8 +102,9 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: Pointer to Copy_pu8DataByte 
+						UART_ReceivedByte -> ( size:255 bits , range: zero or 255 ,type u8, description this variable defines read Copy_pu8DataByte)
+* \Return value     : enum
 *********************************************************************/
 
 /******************************************************************
@@ -106,8 +114,9 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: void
+						void -> ( size:unkown , range: unkown ,type unkown, description unkown)
+* \Return value     : void
 *********************************************************************/
 
 typedef enum

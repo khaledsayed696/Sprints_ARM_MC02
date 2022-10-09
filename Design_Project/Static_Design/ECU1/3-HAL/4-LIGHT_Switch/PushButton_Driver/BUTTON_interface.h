@@ -10,8 +10,9 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: void
+						void -> ( size:unkown , range: unkown ,type unkown, description unkown)
+* \Return value     : void
 *********************************************************************/ 
 /******************************************************************
 * \Syntax			: void BUTTON_VoidSetToggleValue(void);
@@ -20,8 +21,9 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: void
+						void -> ( size:unkown , range: unkown ,type unkown, description unkown)
+* \Return value     : void
 *********************************************************************/ 
 
 /******************************************************************
@@ -31,8 +33,10 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	:Button_u8Value
+						Button_u8Value -> ( size:8 bits , range: zero or 255 ,type u8, description this variable defines Button_u8Value)
+						
+* \Return value     : void
 *********************************************************************/ 
 
 void BUTTON_VoidSetButtonValue(void );

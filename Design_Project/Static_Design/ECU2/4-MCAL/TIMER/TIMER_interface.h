@@ -52,19 +52,11 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	:  Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: void
+						void -> ( size:unkown , range: unkown ,type unkown, description unkown)
+* \Return value     : void
 *********************************************************************/
-/******************************************************************
-* \Syntax			: /* This Function Shall : Start the timer preload
-* \Description		: Set pin value	high or low
-*					 
-*	
-* \Sync\Async		: Synchronous
-* \Reenrancy    	: Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
-*********************************************************************/
+
 /******************************************************************
 * \Syntax			: void TIMER_VoidClearTCNT0(void);
 * \Description		: /* This function SHall Clear the TIMER preload
@@ -72,8 +64,9 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	: Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: void
+						void -> ( size:unkown , range: unkown ,type unkown, description unkown)
+* \Return value     : void
 *********************************************************************/
 /******************************************************************
 * \Syntax			: void TIMER_VoidEnInt2(void);
@@ -82,8 +75,9 @@
 *	
 * \Sync\Async		: Synchronous
 * \Reenrancy    	: Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: void
+						void -> ( size:unkown , range: unkown ,type unkown, description unkown)
+* \Return value     : void
 *********************************************************************/
 /******************************************************************
 * \Syntax			: void TIMER_VoidDis(void);
@@ -92,8 +86,9 @@
 *	
 * \Sync\Async		: ASynchronous
 * \Reenrancy    	: Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: void
+						void -> ( size:unkown , range: unkown ,type unkown, description unkown)
+* \Return value     : void
 *********************************************************************/
 /******************************************************************
 * \Syntax			: void TIMER_VoidPrescaler(void);
@@ -102,8 +97,9 @@
 *	
 * \Sync\Async		: ASynchronous
 * \Reenrancy    	: Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: void
+						void -> ( size:unkown , range: unkown ,type unkown, description unkown)
+* \Return value     : void
 *********************************************************************/
 /******************************************************************
 * \Syntax			: void TIMER0_VoidDutyCycle(u8 TIMER_u16CopyDutyCycle);
@@ -112,8 +108,9 @@
 *	
 * \Sync\Async		: ASynchronous
 * \Reenrancy    	: Reentrant
-* \Parameters (in)	: None
-* \Return value     : None
+* \Parameters (in)	: TIMER_u16CopyDutyCycle 
+						TIMER_u16CopyDutyCycle -> ( size:8 bits , range: zero or 255 ,type u8, description this variable defines the DutyCycle)
+* \Return value     : void
 *********************************************************************/
 /* This Function Shall : Initialoze TIME0*/
 void TIMER_VoidInit(void);
